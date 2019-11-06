@@ -1,4 +1,5 @@
 test:
 	python3 -m unittest
 
-.PHONY: test
+.PHONY: test clean
+
