@@ -10,7 +10,7 @@ class TestBasics(unittest.TestCase):
 		self.assertEqual(2, result)
 	def test_power(self):
 		result = rpn.calculate('2 3 ^')
-		self.assertEqual(8, results)
+		self.assertEqual(8, result)
 	def test_badinput(self):
 		with self.assertRaises(TypeError):
 			rpn.calculate('1 2 3 +')
